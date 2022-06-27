@@ -1,9 +1,9 @@
 /*==========================================================================*/
 /*  LongitudinalControllerWithTrafficLights									*/
+/*  Provably safe longitudinal vehicle controller that respects traffic     */
+/*  lights                                                                  */
 /*                                                                          */
-/*  Controller used on the paper: XXXXXXXXXXXXXX                            */
-/*                                                                          */
-/*								Fernando Valladares Monteiro	            */
+/*	Version of 2022-06						   Fernando Valladares Monteiro */
 /*==========================================================================*/
 
 #pragma once

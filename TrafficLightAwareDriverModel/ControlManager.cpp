@@ -66,20 +66,3 @@ double ControlManager::get_traffic_light_acc_acceleration(
 
 	return ret;
 }
-
-void ControlManager::print_traffic_lights(const EgoVehicle& ego,
-	const std::unordered_map<int, TrafficLight>& traffic_lights)
-{
-	std::clog << "veh id=" << ego.get_id() << std::endl;
-	for (auto& pair : traffic_lights) std::clog << "tf id=" << pair.first <<
-		"(" << pair.second.get_id() << "), ";
-	std::clog << std::endl;
-
-	if (verbose) std::clog << "Inside placeholder function\n"
-		<< "Getting nominal input" << std::endl;
-
-	std::unordered_map<LongitudinalControllerWithTrafficLights::State, double>
-		possible_accelerations;
-
-	with_traffic_lights_controller.get_nominal_input(possible_accelerations);
-}

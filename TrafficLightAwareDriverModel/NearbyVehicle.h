@@ -2,7 +2,7 @@
 /*  NearbyVehicle.h	    												    */
 /*  Class to help manage neighboring vehicles								*/
 /*                                                                          */
-/*  Version of 2021-xx-xx                             Fernando V. Monteiro  */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
 /*==========================================================================*/
 
 #pragma once

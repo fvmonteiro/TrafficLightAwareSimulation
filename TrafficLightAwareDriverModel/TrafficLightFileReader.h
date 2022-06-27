@@ -1,3 +1,10 @@
+/*==========================================================================*/
+/*  TrafficLightFileReader.h												*/
+/*  Does the interface between the data in a CSV file and the code.			*/
+/*                                                                          */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
+/*==========================================================================*/
+
 #pragma once
 
 #include <string>

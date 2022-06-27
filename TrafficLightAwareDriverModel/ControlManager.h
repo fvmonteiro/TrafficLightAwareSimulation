@@ -1,8 +1,8 @@
 /*==========================================================================*/
 /*  ControlManager.cpp    											        */
-/*  Helps manage possible different controllers								*/
+/*  Helps manage controllers used by the autonomous vehicle 				*/
 /*                                                                          */
-/*  Version of 2021-xx-xx                             Fernando V. Monteiro  */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
 /*==========================================================================*/
 
 #pragma once
@@ -40,16 +40,13 @@ public:
 		const TrafficLightACCVehicle& ego_vehicle,
 		const std::unordered_map<int, TrafficLight>& traffic_lights);
 
-	void print_traffic_lights(const EgoVehicle& ego,
-		const std::unordered_map<int, TrafficLight>& traffic_lights);
-
 	double use_vissim_desired_acceleration(const EgoVehicle& ego_vehicle);
 
 private:
 	LongitudinalControllerWithTrafficLights
 		with_traffic_lights_controller;
 
-	/* indicates which controller is active. Used for debugging and
+	/* Indicates which controller is active. Used for debugging and
 	visualization. */
 	LongControlType active_longitudinal_controller{ LongControlType::vissim }; 
 	

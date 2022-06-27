@@ -1,6 +1,12 @@
-/* Class to deal with relative lanes in a more intuitive way.
-Code inspired by the answer at: 
-https://stackoverflow.com/questions/21295935/can-a-c-enum-class-have-methods*/
+/*==========================================================================*/
+/*  RelativeLane.h	    													*/
+/*  Class to deal with relative lanes in a more intuitive way.				*/
+/*                                                                          */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
+/*==========================================================================*/
+
+/* Code inspired by the answer at:
+https://stackoverflow.com/questions/21295935/can-a-c-enum-class-have-methods */
 
 #pragma once
 

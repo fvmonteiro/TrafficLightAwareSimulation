@@ -1,3 +1,10 @@
+/*==========================================================================*/
+/*  TrafficLight.h	    													*/
+/*  Representation of traffic lights.										*/
+/*                                                                          */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
+/*==========================================================================*/
+
 #pragma once
 
 #include <iostream>

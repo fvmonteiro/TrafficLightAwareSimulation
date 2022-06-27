@@ -1,3 +1,10 @@
+/*==========================================================================*/
+/*  Vehicle.h		    													*/
+/*  Base class for all simulation vehicles									*/
+/*                                                                          */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
+/*==========================================================================*/
+
 #pragma once
 
 #include <vector>

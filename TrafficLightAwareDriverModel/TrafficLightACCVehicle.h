@@ -1,3 +1,11 @@
+/*==========================================================================*/
+/*  TrafficLightACCVehicle.h												*/
+/*  implementations of the EgoVehicle class which use						*/
+/*  LongitudinalControllerWithTrafficLights controller						*/
+/*                                                                          */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
+/*==========================================================================*/
+
 #pragma once
 
 #include "EgoVehicle.h"

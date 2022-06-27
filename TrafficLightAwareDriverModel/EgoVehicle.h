@@ -2,7 +2,7 @@
 /*  EgoVehicle.h	    													*/
 /*  Base class for partially or fully automated vehicles					*/
 /*                                                                          */
-/*  Version of 2021-xx-xx                             Fernando V. Monteiro  */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
 /*==========================================================================*/
 
 #pragma once

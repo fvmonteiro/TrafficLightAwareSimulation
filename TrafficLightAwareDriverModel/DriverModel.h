@@ -3,7 +3,8 @@
 /*                                                                          */
 /*  Interface module for external driver models.                            */
 /*                                                                          */
-/*  Version of 2018-02-14                                   Lukas Kautzsch  */
+/*  Original Version of 2018-02-14                          Lukas Kautzsch  */
+/*  Version of 2022-06	                              Fernando V. Monteiro  */
 /*==========================================================================*/
 
 #ifndef __DRIVERMODEL_H
