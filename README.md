@@ -21,8 +21,8 @@ Structure:
 	- Vehicle: base class for all vehicles (EgoVehicle and NearbyVehicle)
 
 - VISSIM_networks:
-	- dll_log.txt: data written by the DLL during the latest simulation
-	- dll_persistent.txt: simple log of all simulations run using the DLL
+	- dll_log.txt: data written by the DLL during the latest simulation. This file is created automatically once a simulation is run.
+	- dll_persistent.txt: simple log of all simulations run using the DLL. . This file is created automatically once the first simulation is run.
 	- traffic_lights_study.inpx: VISSIM file with the simulated network
 	- traffic_lights_study_source_times.csv: file describing the green, amber and red periods as well as the position of all traffic lights in the simulation. 
 	This file is used by the DLL so the CAVs can know the traffic lights periods. It must be updated manually if any alterations to the traffic lights are made in VISSIM.
