@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Traffic Light Aware Automatic Longitudinal Vehicle
+  Controller
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Fernando
+    family-names: Valladares Monteiro
+    email: fvallada@usc.edu
+    affiliation: University of Southern California
+    orcid: 'https://orcid.org/0000-0002-6188-6971'
