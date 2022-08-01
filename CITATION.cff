@@ -2,16 +2,27 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: >-
-  Traffic Light Aware Automatic Longitudinal Vehicle
-  Controller
-message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
-type: software
+title: "Traffic Light Aware Automatic Longitudinal Vehicle Controller"
+message: "If you use this software, please cite it using the metadata from this file."
+type: "software"
 authors:
-  - given-names: Fernando
-    family-names: Valladares Monteiro
+  - family-names: Valladares Monteiro
+    given-names: Fernando
     email: fvallada@usc.edu
     affiliation: University of Southern California
     orcid: 'https://orcid.org/0000-0002-6188-6971'
+  - family-names: Waqas
+    given-names: Muhammad
+	affiliation: University of Southern California
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Waqas
+    given-names: Muhammad
+  - family-names: Valladares Monteiro
+    given-names: Fernando
+    orcid: 'https://orcid.org/0000-0002-6188-6971'
+  journal: IEEE International Conference on Intelligent Transportation Systems
+  month: 10
+  title: 'Trade-off Between Safety and Traffic Flow for Connected Autonomous Vehicles in the Presence of Traffic Signals'
+  year: 2022
